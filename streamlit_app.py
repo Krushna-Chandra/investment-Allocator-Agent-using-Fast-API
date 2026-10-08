@@ -7,7 +7,7 @@ import requests
 import streamlit as st
 
 
-API_URL = "http://127.0.0.1:8001/allocate"
+API_URL = "http://127.0.0.1:8000/allocate"
 APP_DIR = Path(__file__).resolve().parent
 LOGO_PATH = APP_DIR / "assets" / "investai-growth.svg"
 LOGO_DATA_URI = "data:image/svg+xml;base64," + b64encode(LOGO_PATH.read_bytes()).decode("ascii")

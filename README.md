@@ -398,19 +398,19 @@ Make sure your virtual environment is activated.
 Run:
 
 ```bash
-uvicorn app:app --port 8001
+uvicorn app:app --reload
 ```
 
 Backend:
 
 ```text
-http://127.0.0.1:8001
+http://127.0.0.1:8000
 ```
 
 FastAPI Swagger documentation:
 
 ```text
-http://127.0.0.1:8001/docs
+http://127.0.0.1:8000/docs
 ```
 
 ---
@@ -426,13 +426,13 @@ Activate the virtual environment:
 Then run:
 
 ```bash
-streamlit run streamlit_app.py --server.port 8502
+streamlit run streamlit_app.py
 ```
 
 Open the application in your browser:
 
 ```text
-http://localhost:8502
+http://localhost:8501
 ```
 
 ---
